@@ -1,10 +1,10 @@
 # EventStencil
 
-![EventStencil: make payload changes visible](https://vendorwindow.hatchable.site/eventstencil-social.jpg)
+![EventStencil: make payload changes visible](https://eventstencil.hatchable.site/eventstencil-social.jpg)
 
 **Turn webhook examples into portable fixture regression tests.**
 
-[Try the free workbench](https://vendorwindow.hatchable.site/launch.html?utm_source=github&utm_medium=repository&utm_campaign=launch) · [Read the guide](https://vendorwindow.hatchable.site/webhook-fixture-testing.html?utm_source=github&utm_medium=repository&utm_campaign=launch) · [Offline app + source](https://vendorwindow.hatchable.site/purchase.html?utm_source=github&utm_medium=repository&utm_campaign=launch)
+[Try the free workbench](https://eventstencil.hatchable.site/launch.html?utm_source=github&utm_medium=repository&utm_campaign=launch) · [Read the guide](https://eventstencil.hatchable.site/webhook-fixture-testing.html?utm_source=github&utm_medium=repository&utm_campaign=launch) · [Offline app + source](https://eventstencil.hatchable.site/purchase.html?utm_source=github&utm_medium=repository&utm_campaign=launch)
 
 EventStencil compares a baseline JSON example with a candidate, highlights missing fields and changed types, and exports runnable fixture checks for Node and GitHub Actions.
 
@@ -12,7 +12,7 @@ This repository is a **public showcase and fictional generated example**. It is 
 
 ## Try the example
 
-Download the [free fictional example kit](https://vendorwindow.hatchable.site/examples/eventstencil-example-kit.zip), extract it, and run:
+Download the [free fictional example kit](https://eventstencil.hatchable.site/examples/eventstencil-example-kit.zip), extract it, and run:
 
 ```sh
 npm test
@@ -40,6 +40,6 @@ Every hosted workbench feature is free to try. The optional **USD 39 one-time of
 
 ## Feedback and support
 
-Use [the support form](https://vendorwindow.hatchable.site/support.html). Useful feedback includes the type of fixture difference you wanted to review and which rule was unclear. Do not post credentials or production payloads in public issues.
+Use [the support form](https://eventstencil.hatchable.site/support.html). Useful feedback includes the type of fixture difference you wanted to review and which rule was unclear. Do not post credentials or production payloads in public issues.
 
 EventStencil 0.1 is beta software. The product and these materials were prepared with AI assistance. The included generated example was executed successfully with Node's test runner.
