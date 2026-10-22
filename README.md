@@ -1,5 +1,7 @@
 # EventStencil
 
+![EventStencil: make payload changes visible](https://vendorwindow.hatchable.site/eventstencil-social.jpg)
+
 **Turn webhook examples into portable fixture regression tests.**
 
 [Try the free workbench](https://vendorwindow.hatchable.site/launch.html?utm_source=github&utm_medium=repository&utm_campaign=launch) · [Read the guide](https://vendorwindow.hatchable.site/webhook-fixture-testing.html?utm_source=github&utm_medium=repository&utm_campaign=launch) · [Offline app + source](https://vendorwindow.hatchable.site/purchase.html?utm_source=github&utm_medium=repository&utm_campaign=launch)
