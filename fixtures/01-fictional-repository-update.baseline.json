@@ -1,0 +1,8 @@
+{
+  "delivery_id": "example-001",
+  "repository": {
+    "id": 8421,
+    "private": true,
+    "default_branch": "main"
+  }
+}

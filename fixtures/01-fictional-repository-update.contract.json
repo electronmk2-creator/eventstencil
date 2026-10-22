@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$comment": "Sample-derived observed shape, not a complete or authoritative provider contract. All observed object fields are required. Null is not optional. Unknown array items, optional fields, formats, value enums, and future event variants cannot be established from samples. Array value comparison and exact-index ignore rules are separate analysis policies, not encoded by this schema. No fixed array length is inferred.",
+  "type": "object",
+  "properties": {
+    "delivery_id": {},
+    "repository": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "number"
+        },
+        "private": {
+          "type": "boolean"
+        },
+        "default_branch": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "private",
+        "default_branch"
+      ],
+      "additionalProperties": true
+    }
+  },
+  "required": [
+    "repository"
+  ],
+  "additionalProperties": true
+}

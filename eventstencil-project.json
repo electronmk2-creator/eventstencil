@@ -1,0 +1,25 @@
+{
+  "format": "eventstencil",
+  "version": 1,
+  "name": "EventStencil fictional example",
+  "cases": [
+    {
+      "id": "fictional-case",
+      "name": "Fictional repository update",
+      "baselineText": "{\n  \"delivery_id\": \"example-001\",\n  \"repository\": {\n    \"id\": 8421,\n    \"private\": true,\n    \"default_branch\": \"main\"\n  }\n}\n",
+      "candidateText": "{\n  \"delivery_id\": \"example-002\",\n  \"repository\": {\n    \"id\": 8421,\n    \"private\": false,\n    \"default_branch\": \"main\"\n  }\n}\n",
+      "options": {
+        "ignorePaths": [
+          "/delivery_id"
+        ],
+        "compareValues": false,
+        "allowExtra": true
+      },
+      "redaction": {
+        "keys": [],
+        "paths": []
+      }
+    }
+  ],
+  "activeCaseId": "fictional-case"
+}

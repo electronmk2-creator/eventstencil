@@ -1,0 +1,20 @@
+{
+  "format": "eventstencil",
+  "version": 1,
+  "cases": [
+    {
+      "id": "fictional-case",
+      "name": "Fictional repository update",
+      "baselinePath": "fixtures/01-fictional-repository-update.baseline.json",
+      "candidatePath": "fixtures/01-fictional-repository-update.candidate.json",
+      "contractPath": "fixtures/01-fictional-repository-update.contract.json",
+      "options": {
+        "ignorePaths": [
+          "/delivery_id"
+        ],
+        "compareValues": false,
+        "allowExtra": true
+      }
+    }
+  ]
+}
